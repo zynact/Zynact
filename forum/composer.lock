@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "05aa6017d8712412b21395a509b5f52e",
+    "content-hash": "ae82cbbeaec36a7543fbbb5ed0168be0",
     "packages": [
         {
             "name": "axy/backtrace",
@@ -183,6 +183,56 @@
             "time": "2018-04-16T13:23:46+00:00"
         },
         {
+            "name": "clarkwinkelmann/flarum-ext-emojionearea",
+            "version": "0.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/clarkwinkelmann/flarum-ext-emojionearea.git",
+                "reference": "1a48b05a679a35b535834469e7ab28141e9e58bc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/clarkwinkelmann/flarum-ext-emojionearea/zipball/1a48b05a679a35b535834469e7ab28141e9e58bc",
+                "reference": "1a48b05a679a35b535834469e7ab28141e9e58bc",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.8"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Emoji Picker",
+                    "icon": {
+                        "name": "far fa-smile-beam",
+                        "backgroundColor": "#fdca47",
+                        "color": "#664500"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/4787"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ClarkWinkelmann\\EmojioneArea\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Clark Winkelmann",
+                    "email": "clark.winkelmann@gmail.com",
+                    "homepage": "https://clarkwinkelmann.com/"
+                }
+            ],
+            "description": "Add EmojioneArea emoji picker to Flarum",
+            "time": "2020-05-03T22:29:01+00:00"
+        },
+        {
             "name": "components/font-awesome",
             "version": "5.9.0",
             "source": {
@@ -216,6 +266,383 @@
             ],
             "description": "Font Awesome, the iconic SVG, font, and CSS framework.",
             "time": "2019-06-07T02:02:10+00:00"
+        },
+        {
+            "name": "composer/ca-bundle",
+            "version": "1.2.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/ca-bundle.git",
+                "reference": "95c63ab2117a72f48f5a55da9740a3273d45b7fd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/95c63ab2117a72f48f5a55da9740a3273d45b7fd",
+                "reference": "95c63ab2117a72f48f5a55da9740a3273d45b7fd",
+                "shasum": ""
+            },
+            "require": {
+                "ext-openssl": "*",
+                "ext-pcre": "*",
+                "php": "^5.3.2 || ^7.0 || ^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || 6.5 - 8",
+                "psr/log": "^1.0",
+                "symfony/process": "^2.5 || ^3.0 || ^4.0 || ^5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\CaBundle\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                }
+            ],
+            "description": "Lets you find a path to the system CA bundle, and includes a fallback to the Mozilla CA bundle.",
+            "keywords": [
+                "cabundle",
+                "cacert",
+                "certificate",
+                "ssl",
+                "tls"
+            ],
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-04-08T08:27:21+00:00"
+        },
+        {
+            "name": "composer/composer",
+            "version": "1.10.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/composer.git",
+                "reference": "be81b9c4735362c26876bdbfd3b5bc7e7f711c88"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/composer/zipball/be81b9c4735362c26876bdbfd3b5bc7e7f711c88",
+                "reference": "be81b9c4735362c26876bdbfd3b5bc7e7f711c88",
+                "shasum": ""
+            },
+            "require": {
+                "composer/ca-bundle": "^1.0",
+                "composer/semver": "^1.0",
+                "composer/spdx-licenses": "^1.2",
+                "composer/xdebug-handler": "^1.1",
+                "justinrainbow/json-schema": "^3.0 || ^4.0 || ^5.0",
+                "php": "^5.3.2 || ^7.0",
+                "psr/log": "^1.0",
+                "seld/jsonlint": "^1.4",
+                "seld/phar-utils": "^1.0",
+                "symfony/console": "^2.7 || ^3.0 || ^4.0 || ^5.0",
+                "symfony/filesystem": "^2.7 || ^3.0 || ^4.0 || ^5.0",
+                "symfony/finder": "^2.7 || ^3.0 || ^4.0 || ^5.0",
+                "symfony/process": "^2.7 || ^3.0 || ^4.0 || ^5.0"
+            },
+            "conflict": {
+                "symfony/console": "2.8.38",
+                "symfony/phpunit-bridge": "3.4.40"
+            },
+            "require-dev": {
+                "phpspec/prophecy": "^1.10",
+                "symfony/phpunit-bridge": "^3.4"
+            },
+            "suggest": {
+                "ext-openssl": "Enabling the openssl extension allows you to access https URLs for repositories and packages",
+                "ext-zip": "Enabling the zip extension allows you to unzip archives",
+                "ext-zlib": "Allow gzip compression of HTTP requests"
+            },
+            "bin": [
+                "bin/composer"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.10-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\": "src/Composer"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nils Adermann",
+                    "email": "naderman@naderman.de",
+                    "homepage": "http://www.naderman.de"
+                },
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                }
+            ],
+            "description": "Composer helps you declare, manage and install dependencies of PHP projects. It ensures you have the right stack everywhere.",
+            "homepage": "https://getcomposer.org/",
+            "keywords": [
+                "autoload",
+                "dependency",
+                "package"
+            ],
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-05-06T08:28:10+00:00"
+        },
+        {
+            "name": "composer/semver",
+            "version": "1.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/semver.git",
+                "reference": "c6bea70230ef4dd483e6bbcab6005f682ed3a8de"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/semver/zipball/c6bea70230ef4dd483e6bbcab6005f682ed3a8de",
+                "reference": "c6bea70230ef4dd483e6bbcab6005f682ed3a8de",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.2 || ^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.5 || ^5.0.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Semver\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nils Adermann",
+                    "email": "naderman@naderman.de",
+                    "homepage": "http://www.naderman.de"
+                },
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                },
+                {
+                    "name": "Rob Bast",
+                    "email": "rob.bast@gmail.com",
+                    "homepage": "http://robbast.nl"
+                }
+            ],
+            "description": "Semver library that offers utilities, version constraint parsing and validation.",
+            "keywords": [
+                "semantic",
+                "semver",
+                "validation",
+                "versioning"
+            ],
+            "time": "2020-01-13T12:06:48+00:00"
+        },
+        {
+            "name": "composer/spdx-licenses",
+            "version": "1.5.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/spdx-licenses.git",
+                "reference": "0c3e51e1880ca149682332770e25977c70cf9dae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/spdx-licenses/zipball/0c3e51e1880ca149682332770e25977c70cf9dae",
+                "reference": "0c3e51e1880ca149682332770e25977c70cf9dae",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.2 || ^7.0 || ^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || 6.5 - 7"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Spdx\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nils Adermann",
+                    "email": "naderman@naderman.de",
+                    "homepage": "http://www.naderman.de"
+                },
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                },
+                {
+                    "name": "Rob Bast",
+                    "email": "rob.bast@gmail.com",
+                    "homepage": "http://robbast.nl"
+                }
+            ],
+            "description": "SPDX licenses list and validation library.",
+            "keywords": [
+                "license",
+                "spdx",
+                "validator"
+            ],
+            "time": "2020-02-14T07:44:31+00:00"
+        },
+        {
+            "name": "composer/xdebug-handler",
+            "version": "1.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/xdebug-handler.git",
+                "reference": "1ab9842d69e64fb3a01be6b656501032d1b78cb7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/xdebug-handler/zipball/1ab9842d69e64fb3a01be6b656501032d1b78cb7",
+                "reference": "1ab9842d69e64fb3a01be6b656501032d1b78cb7",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.2 || ^7.0 || ^8.0",
+                "psr/log": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || 6.5 - 8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Composer\\XdebugHandler\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "John Stevenson",
+                    "email": "john-stevenson@blueyonder.co.uk"
+                }
+            ],
+            "description": "Restarts a process without Xdebug.",
+            "keywords": [
+                "Xdebug",
+                "performance"
+            ],
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                }
+            ],
+            "time": "2020-03-01T12:26:26+00:00"
+        },
+        {
+            "name": "dem13n/nickname-changer",
+            "version": "0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Dem13n/nickname-changer.git",
+                "reference": "16fd5d7cd9e06925153472ddd4edcfe62f6bdf10"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Dem13n/nickname-changer/zipball/16fd5d7cd9e06925153472ddd4edcfe62f6bdf10",
+                "reference": "16fd5d7cd9e06925153472ddd4edcfe62f6bdf10",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": ">=0.1.0-beta.10 <0.1.0-beta.14"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.1.x-dev"
+                },
+                "flarum-extension": {
+                    "title": "NickName Changer",
+                    "icon": {
+                        "name": "fas fa-id-badge",
+                        "backgroundColor": "#FEC007",
+                        "color": "#374046"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Dem13n\\NickName\\Changer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dem13n",
+                    "email": "idem13n@gmail.com"
+                }
+            ],
+            "description": "Extension allows users to change nickname",
+            "time": "2020-03-05T13:48:42+00:00"
         },
         {
             "name": "dflydev/fig-cookies",
@@ -690,6 +1117,50 @@
             "time": "2019-10-30T14:39:59+00:00"
         },
         {
+            "name": "dragonmantank/cron-expression",
+            "version": "v1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dragonmantank/cron-expression.git",
+                "reference": "9504fa9ea681b586028adaaa0877db4aecf32bad"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dragonmantank/cron-expression/zipball/9504fa9ea681b586028adaaa0877db4aecf32bad",
+                "reference": "9504fa9ea681b586028adaaa0877db4aecf32bad",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0|~5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Cron\\": "src/Cron/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "CRON for PHP: Calculate the next or previous run date and determine if a CRON expression is due",
+            "keywords": [
+                "cron",
+                "schedule"
+            ],
+            "time": "2017-01-23T04:29:33+00:00"
+        },
+        {
             "name": "egulias/email-validator",
             "version": "2.1.17",
             "source": {
@@ -792,6 +1263,82 @@
                 "parser"
             ],
             "time": "2019-12-30T22:54:17+00:00"
+        },
+        {
+            "name": "extiverse/bazaar",
+            "version": "0.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/extiverse/bazaar.git",
+                "reference": "66494aa1c794923c26f62d5b1d552a06ed29c831"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/extiverse/bazaar/zipball/66494aa1c794923c26f62d5b1d552a06ed29c831",
+                "reference": "66494aa1c794923c26f62d5b1d552a06ed29c831",
+                "shasum": ""
+            },
+            "require": {
+                "composer/composer": "^1.3",
+                "flarum/core": "^0.1.0-beta.9",
+                "fof/console": "^0.5",
+                "guzzlehttp/guzzle": "^6.2"
+            },
+            "replace": {
+                "flagrow/bazaar": "*"
+            },
+            "require-dev": {
+                "flagrow/steamroller": "dev-master"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Bazaar",
+                    "icon": {
+                        "image": "resources/logo.svg",
+                        "backgroundColor": "#5f4bb6",
+                        "backgroundSize": "90%",
+                        "backgroundRepeat": "no-repeat",
+                        "backgroundPosition": "center"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/5151"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Extiverse\\Bazaar\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniël Klabbers",
+                    "email": "daniel@klabbers.email",
+                    "homepage": "http://luceos.com"
+                },
+                {
+                    "name": "Clark Winkelmann",
+                    "email": "clark.winkelmann@gmail.com",
+                    "homepage": "https://clarkwinkelmann.com"
+                }
+            ],
+            "description": "The Flarum extension marketplace.",
+            "keywords": [
+                "extend",
+                "extension",
+                "extensions",
+                "extiverse",
+                "flarum",
+                "marketplace",
+                "paid",
+                "premium"
+            ],
+            "time": "2019-11-11T10:50:08+00:00"
         },
         {
             "name": "fig/http-message-util",
@@ -905,6 +1452,67 @@
                 "whoops"
             ],
             "time": "2020-05-05T12:28:07+00:00"
+        },
+        {
+            "name": "flagrow/ads",
+            "version": "0.2.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfFlarum/ads.git",
+                "reference": "44f401a207ef2ca39684367a4339a7b6ea7b9bb2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/ads/zipball/44f401a207ef2ca39684367a4339a7b6ea7b9bb2",
+                "reference": "44f401a207ef2ca39684367a4339a7b6ea7b9bb2",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.8"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Flagrow Ads",
+                    "icon": {
+                        "name": "fas fa-audio-description",
+                        "backgroundColor": "#f4f4f4",
+                        "color": "#5f4bb6"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/4785"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Flagrow\\Ads\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniël Klabbers",
+                    "email": "daniel+flarum@klabbers.email",
+                    "homepage": "http://hyn.me"
+                },
+                {
+                    "name": "Clark Winkelmann",
+                    "email": "clark.winkelmann@gmail.com",
+                    "homepage": "https://clarkwinkelmann.com"
+                }
+            ],
+            "description": "Bombarding your users with ads.",
+            "keywords": [
+                "Advertising",
+                "ads",
+                "flagrow",
+                "flarum"
+            ],
+            "time": "2019-08-13T02:34:01+00:00"
         },
         {
             "name": "flarum/approval",
@@ -2110,6 +2718,130 @@
             "time": "2020-05-04T08:48:54+00:00"
         },
         {
+            "name": "fof/console",
+            "version": "0.5.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfFlarum/console.git",
+                "reference": "1573f3ebaacf384394f3be951809ee23235ff0fb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/console/zipball/1573f3ebaacf384394f3be951809ee23235ff0fb",
+                "reference": "1573f3ebaacf384394f3be951809ee23235ff0fb",
+                "shasum": ""
+            },
+            "require": {
+                "dragonmantank/cron-expression": "^1.2.1",
+                "flarum/core": "^0.1.0-beta.9",
+                "illuminate/console": "5.7.*",
+                "symfony/process": "~4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "FoF\\Console\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Clark Winkelmann",
+                    "email": "clark.winkelmann@gmail.com",
+                    "homepage": "https://clarkwinkelmann.com/"
+                },
+                {
+                    "name": "Daniël Klabbers",
+                    "email": "daniel@klabbers.email",
+                    "homepage": "http://luceos.com"
+                }
+            ],
+            "description": "Register custom commands and task scheduling into Flarum",
+            "keywords": [
+                "console",
+                "cron",
+                "cronjob",
+                "extension",
+                "flarum"
+            ],
+            "funding": [
+                {
+                    "url": "https://opencollective.com/fof",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2020-05-10T19:55:49+00:00"
+        },
+        {
+            "name": "fof/links",
+            "version": "0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfFlarum/links.git",
+                "reference": "f88d29b14f31ac5629b88dcc1fbc61448ec56178"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/links/zipball/f88d29b14f31ac5629b88dcc1fbc61448ec56178",
+                "reference": "f88d29b14f31ac5629b88dcc1fbc61448ec56178",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": ">=0.1.0-beta.12 <0.1.0-beta.14"
+            },
+            "replace": {
+                "sijad/flarum-ext-links": "*"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "FoF Links",
+                    "icon": {
+                        "name": "fas fa-bars",
+                        "backgroundColor": "#e74c3c",
+                        "color": "#fff"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/18335-friendsofflarum-links"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FoF\\Links\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sajjad Hashemian",
+                    "email": "wolaws@gmail.com"
+                },
+                {
+                    "name": "David Sevilla Martín",
+                    "email": "me+fof@datitisev.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Manage Flarum primary navbar menu links",
+            "keywords": [
+                "flarum"
+            ],
+            "funding": [
+                {
+                    "url": "https://opencollective.com/fof",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2020-05-04T11:52:44+00:00"
+        },
+        {
             "name": "franzl/whoops-middleware",
             "version": "0.4.1",
             "source": {
@@ -3281,6 +4013,72 @@
                 "watermark"
             ],
             "time": "2019-11-02T09:15:47+00:00"
+        },
+        {
+            "name": "justinrainbow/json-schema",
+            "version": "5.2.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/justinrainbow/json-schema.git",
+                "reference": "44c6787311242a979fa15c704327c20e7221a0e4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/44c6787311242a979fa15c704327c20e7221a0e4",
+                "reference": "44c6787311242a979fa15c704327c20e7221a0e4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "~2.2.20||~2.15.1",
+                "json-schema/json-schema-test-suite": "1.2.0",
+                "phpunit/phpunit": "^4.8.35"
+            },
+            "bin": [
+                "bin/validate-json"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "JsonSchema\\": "src/JsonSchema/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bruno Prieto Reis",
+                    "email": "bruno.p.reis@gmail.com"
+                },
+                {
+                    "name": "Justin Rainbow",
+                    "email": "justin.rainbow@gmail.com"
+                },
+                {
+                    "name": "Igor Wiedler",
+                    "email": "igor@wiedler.ch"
+                },
+                {
+                    "name": "Robert Schönthal",
+                    "email": "seroscho@googlemail.com"
+                }
+            ],
+            "description": "A library to validate a json schema.",
+            "homepage": "https://github.com/justinrainbow/json-schema",
+            "keywords": [
+                "json",
+                "schema"
+            ],
+            "time": "2019-09-25T14:49:45+00:00"
         },
         {
             "name": "kylekatarnls/update-helper",
@@ -5122,6 +5920,109 @@
             "time": "2020-04-29T16:11:43+00:00"
         },
         {
+            "name": "seld/jsonlint",
+            "version": "1.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/jsonlint.git",
+                "reference": "ff2aa5420bfbc296cf6a0bc785fa5b35736de7c1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/ff2aa5420bfbc296cf6a0bc785fa5b35736de7c1",
+                "reference": "ff2aa5420bfbc296cf6a0bc785fa5b35736de7c1",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3 || ^7.0 || ^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.0"
+            },
+            "bin": [
+                "bin/jsonlint"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Seld\\JsonLint\\": "src/Seld/JsonLint/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                }
+            ],
+            "description": "JSON Linter",
+            "keywords": [
+                "json",
+                "linter",
+                "parser",
+                "validator"
+            ],
+            "funding": [
+                {
+                    "url": "https://github.com/Seldaek",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/seld/jsonlint",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-04-30T19:05:18+00:00"
+        },
+        {
+            "name": "seld/phar-utils",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/phar-utils.git",
+                "reference": "8800503d56b9867d43d9c303b9cbcc26016e82f0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/phar-utils/zipball/8800503d56b9867d43d9c303b9cbcc26016e82f0",
+                "reference": "8800503d56b9867d43d9c303b9cbcc26016e82f0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Seld\\PharUtils\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be"
+                }
+            ],
+            "description": "PHAR file format utilities, for when PHP phars you up",
+            "keywords": [
+                "phar"
+            ],
+            "time": "2020-02-14T15:25:33+00:00"
+        },
+        {
             "name": "swiftmailer/swiftmailer",
             "version": "v6.2.3",
             "source": {
@@ -6715,6 +7616,114 @@
             "time": "2016-03-31T09:25:28+00:00"
         },
         {
+            "name": "v17development/flarum-seo",
+            "version": "1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/v17development/flarum-seo.git",
+                "reference": "1b499cac04a40614ee1eeb278bf4ff37bc2b50b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/v17development/flarum-seo/zipball/1b499cac04a40614ee1eeb278bf4ff37bc2b50b8",
+                "reference": "1b499cac04a40614ee1eeb278bf4ff37bc2b50b8",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "flarum/core": "^0.1.0-beta.12"
+            },
+            "suggest": {
+                "fof/sitemap": "Allows you to generate powerful sitemap.xml files"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "SEO",
+                    "icon": {
+                        "name": "fas fa-check",
+                        "backgroundColor": "#0072ff",
+                        "color": "#ffffff"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/18316"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "V17Development\\FlarumSeo\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Jasper Vriends - V17 Development",
+                    "email": "jasper@v17.nl"
+                }
+            ],
+            "description": "Adds SEO tags for your Flarum forum",
+            "time": "2020-05-10T13:40:43+00:00"
+        },
+        {
+            "name": "veroz1/users-list",
+            "version": "0.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/VeroZ1/users-list.git",
+                "reference": "f82d1a7b5f6a82fcc5b1d5e9b93c9c07fdf4d56f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/VeroZ1/users-list/zipball/f82d1a7b5f6a82fcc5b1d5e9b93c9c07fdf4d56f",
+                "reference": "f82d1a7b5f6a82fcc5b1d5e9b93c9c07fdf4d56f",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.8"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Flagrow Users List",
+                    "icon": {
+                        "name": "fas fa-users",
+                        "backgroundColor": "#f4f4f4",
+                        "color": "#5f4bb6"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/6009-flagrow-users-list-review-and-mass-mail-users-of-your-forum"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Flagrow\\UsersList\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniël Klabbers",
+                    "email": "daniel@klabbers.email",
+                    "homepage": "http://luceos.com"
+                },
+                {
+                    "name": "Nikolai Morozov",
+                    "email": "avanmorozov@gmail.com"
+                }
+            ],
+            "description": "Add users list in admin panel.",
+            "keywords": [
+                "Users",
+                "admin"
+            ],
+            "time": "2019-08-05T10:10:42+00:00"
+        },
+        {
             "name": "wikimedia/less.php",
             "version": "v3.0.0",
             "source": {
@@ -6776,6 +7785,60 @@
                 "stylesheet"
             ],
             "time": "2020-03-11T23:01:29+00:00"
+        },
+        {
+            "name": "wiwatsrt/flarum-ext-best-answer",
+            "version": "v0.2.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wiwatsrt/flarum-ext-best-answer.git",
+                "reference": "f11c04929b54bc8be10b62648d210fb52e71aded"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wiwatsrt/flarum-ext-best-answer/zipball/f11c04929b54bc8be10b62648d210fb52e71aded",
+                "reference": "f11c04929b54bc8be10b62648d210fb52e71aded",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.9",
+                "fof/console": "^0.5"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.1.x-dev"
+                },
+                "flarum-extension": {
+                    "title": "Best Answer",
+                    "icon": {
+                        "name": "far fa-comment-dots",
+                        "backgroundColor": "#EE8208",
+                        "color": "#fff"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "WiwatSrt\\BestAnswer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Wiwat Srisattha",
+                    "email": "wiwat@srisattha.com"
+                }
+            ],
+            "description": "Best Answer for Flarum.",
+            "keywords": [
+                "best-answer",
+                "flarum"
+            ],
+            "time": "2019-07-06T07:56:31+00:00"
         }
     ],
     "packages-dev": [],

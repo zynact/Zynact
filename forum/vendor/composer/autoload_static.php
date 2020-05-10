@@ -64,7 +64,12 @@ class ComposerStaticInit42a90d141ede0caa67debf7082c61579
         ),
         'W' => 
         array (
+            'WiwatSrt\\BestAnswer\\' => 20,
             'Whoops\\' => 7,
+        ),
+        'V' => 
+        array (
+            'V17Development\\FlarumSeo\\' => 25,
         ),
         'T' => 
         array (
@@ -93,6 +98,8 @@ class ComposerStaticInit42a90d141ede0caa67debf7082c61579
             'Symfony\\Component\\CssSelector\\' => 30,
             'Symfony\\Component\\Console\\' => 26,
             'Symfony\\Component\\Config\\' => 25,
+            'Seld\\PharUtils\\' => 15,
+            'Seld\\JsonLint\\' => 14,
         ),
         'P' => 
         array (
@@ -125,6 +132,10 @@ class ComposerStaticInit42a90d141ede0caa67debf7082c61579
             'Laminas\\Escaper\\' => 16,
             'Laminas\\Diactoros\\' => 18,
         ),
+        'J' => 
+        array (
+            'JsonSchema\\' => 11,
+        ),
         'I' => 
         array (
             'Intervention\\Image\\' => 19,
@@ -156,6 +167,8 @@ class ComposerStaticInit42a90d141ede0caa67debf7082c61579
         'F' => 
         array (
             'Franzl\\Middleware\\Whoops\\' => 25,
+            'FoF\\Links\\' => 10,
+            'FoF\\Console\\' => 12,
             'Flarum\\Tags\\' => 12,
             'Flarum\\Suspend\\' => 15,
             'Flarum\\Subscriptions\\' => 21,
@@ -171,11 +184,14 @@ class ComposerStaticInit42a90d141ede0caa67debf7082c61579
             'Flarum\\Auth\\Facebook\\' => 21,
             'Flarum\\Approval\\' => 16,
             'Flarum\\' => 7,
+            'Flagrow\\UsersList\\' => 18,
+            'Flagrow\\Ads\\' => 12,
             'Fig\\Http\\Message\\' => 17,
             'FastRoute\\' => 10,
         ),
         'E' => 
         array (
+            'Extiverse\\Bazaar\\' => 17,
             'Egulias\\EmailValidator\\' => 23,
         ),
         'D' => 
@@ -187,6 +203,17 @@ class ComposerStaticInit42a90d141ede0caa67debf7082c61579
             'Doctrine\\Common\\Cache\\' => 22,
             'Doctrine\\Common\\' => 16,
             'Dflydev\\FigCookies\\' => 19,
+            'Dem13n\\NickName\\Changer\\' => 24,
+        ),
+        'C' => 
+        array (
+            'Cron\\' => 5,
+            'Composer\\XdebugHandler\\' => 23,
+            'Composer\\Spdx\\' => 14,
+            'Composer\\Semver\\' => 16,
+            'Composer\\CaBundle\\' => 18,
+            'Composer\\' => 9,
+            'ClarkWinkelmann\\EmojioneArea\\' => 29,
         ),
     );
 
@@ -215,9 +242,17 @@ class ComposerStaticInit42a90d141ede0caa67debf7082c61579
         array (
             0 => __DIR__ . '/..' . '/axy/backtrace',
         ),
+        'WiwatSrt\\BestAnswer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/wiwatsrt/flarum-ext-best-answer/src',
+        ),
         'Whoops\\' => 
         array (
             0 => __DIR__ . '/..' . '/filp/whoops/src/Whoops',
+        ),
+        'V17Development\\FlarumSeo\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/v17development/flarum-seo/src',
         ),
         'Tobscure\\JsonApi\\' => 
         array (
@@ -307,6 +342,14 @@ class ComposerStaticInit42a90d141ede0caa67debf7082c61579
         array (
             0 => __DIR__ . '/..' . '/symfony/config',
         ),
+        'Seld\\PharUtils\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/seld/phar-utils/src',
+        ),
+        'Seld\\JsonLint\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/seld/jsonlint/src/Seld/JsonLint',
+        ),
         'Psr\\SimpleCache\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/simple-cache/src',
@@ -388,6 +431,10 @@ class ComposerStaticInit42a90d141ede0caa67debf7082c61579
         'Laminas\\Diactoros\\' => 
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-diactoros/src',
+        ),
+        'JsonSchema\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/justinrainbow/json-schema/src/JsonSchema',
         ),
         'Intervention\\Image\\' => 
         array (
@@ -481,6 +528,14 @@ class ComposerStaticInit42a90d141ede0caa67debf7082c61579
         array (
             0 => __DIR__ . '/..' . '/franzl/whoops-middleware/src',
         ),
+        'FoF\\Links\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fof/links/src',
+        ),
+        'FoF\\Console\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fof/console/src',
+        ),
         'Flarum\\Tags\\' => 
         array (
             0 => __DIR__ . '/..' . '/flarum/tags/src',
@@ -541,6 +596,14 @@ class ComposerStaticInit42a90d141ede0caa67debf7082c61579
         array (
             0 => __DIR__ . '/..' . '/flarum/core/src',
         ),
+        'Flagrow\\UsersList\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/veroz1/users-list/src',
+        ),
+        'Flagrow\\Ads\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/flagrow/ads/src',
+        ),
         'Fig\\Http\\Message\\' => 
         array (
             0 => __DIR__ . '/..' . '/fig/http-message-util/src',
@@ -548,6 +611,10 @@ class ComposerStaticInit42a90d141ede0caa67debf7082c61579
         'FastRoute\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/fast-route/src',
+        ),
+        'Extiverse\\Bazaar\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/extiverse/bazaar/src',
         ),
         'Egulias\\EmailValidator\\' => 
         array (
@@ -580,6 +647,38 @@ class ComposerStaticInit42a90d141ede0caa67debf7082c61579
         'Dflydev\\FigCookies\\' => 
         array (
             0 => __DIR__ . '/..' . '/dflydev/fig-cookies/src/Dflydev/FigCookies',
+        ),
+        'Dem13n\\NickName\\Changer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/dem13n/nickname-changer/src',
+        ),
+        'Cron\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron',
+        ),
+        'Composer\\XdebugHandler\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/composer/xdebug-handler/src',
+        ),
+        'Composer\\Spdx\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/composer/spdx-licenses/src',
+        ),
+        'Composer\\Semver\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/composer/semver/src',
+        ),
+        'Composer\\CaBundle\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/composer/ca-bundle/src',
+        ),
+        'Composer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/composer/composer/src/Composer',
+        ),
+        'ClarkWinkelmann\\EmojioneArea\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/clarkwinkelmann/flarum-ext-emojionearea/src',
         ),
     );
 
