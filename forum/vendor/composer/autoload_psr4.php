@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'samdark\\sitemap\\' => array($vendorDir . '/samdark/sitemap'),
     's9e\\TextFormatter\\' => array($vendorDir . '/s9e/text-formatter/src'),
     's9e\\RegexpBuilder\\' => array($vendorDir . '/s9e/regexp-builder/src'),
     'axy\\sourcemap\\' => array($vendorDir . '/axy/sourcemap'),
@@ -17,6 +18,7 @@ return array(
     'V17Development\\FlarumSeo\\' => array($vendorDir . '/v17development/flarum-seo/src'),
     'Tobscure\\JsonApi\\' => array($vendorDir . '/tobscure/json-api/src'),
     'TijsVerkoyen\\CssToInlineStyles\\' => array($vendorDir . '/tijsverkoyen/css-to-inline-styles/src'),
+    'Terabin\\Sitemap\\' => array($vendorDir . '/terabin/flarum-ext-sitemap/src'),
     'Symfony\\Polyfill\\Php73\\' => array($vendorDir . '/symfony/polyfill-php73'),
     'Symfony\\Polyfill\\Php72\\' => array($vendorDir . '/symfony/polyfill-php72'),
     'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
@@ -82,6 +84,7 @@ return array(
     'GuzzleHttp\\Promise\\' => array($vendorDir . '/guzzlehttp/promises/src'),
     'GuzzleHttp\\' => array($vendorDir . '/guzzlehttp/guzzle/src'),
     'Franzl\\Middleware\\Whoops\\' => array($vendorDir . '/franzl/whoops-middleware/src'),
+    'FoF\\SecureHttps\\' => array($vendorDir . '/fof/secure-https/src'),
     'FoF\\Links\\' => array($vendorDir . '/fof/links/src'),
     'FoF\\Console\\' => array($vendorDir . '/fof/console/src'),
     'Flarum\\Tags\\' => array($vendorDir . '/flarum/tags/src'),

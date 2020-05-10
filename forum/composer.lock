@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ae82cbbeaec36a7543fbbb5ed0168be0",
+    "content-hash": "8309dadf32eef5ea4514958d1a155f08",
     "packages": [
         {
             "name": "axy/backtrace",
@@ -2840,6 +2840,63 @@
                 }
             ],
             "time": "2020-05-04T11:52:44+00:00"
+        },
+        {
+            "name": "fof/secure-https",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfFlarum/secure-https.git",
+                "reference": "0e2851481e1e054d54a34d447dd34eb3997ee330"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/secure-https/zipball/0e2851481e1e054d54a34d447dd34eb3997ee330",
+                "reference": "0e2851481e1e054d54a34d447dd34eb3997ee330",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta-8"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "FoF Secure HTTPS",
+                    "icon": {
+                        "name": "fas fa-lock",
+                        "backgroundColor": "#e74c3c",
+                        "color": "#fff"
+                    }
+                },
+                "flagrow": {
+                    "discuss": ""
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FoF\\SecureHttps\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Connor Davis",
+                    "email": "davis@produes.co"
+                },
+                {
+                    "name": "David Sevilla Martín",
+                    "email": "david.s@redevs.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Changes all images using http to https",
+            "keywords": [
+                "flarum"
+            ],
+            "time": "2018-11-26T13:43:06+00:00"
         },
         {
             "name": "franzl/whoops-middleware",
@@ -5920,6 +5977,51 @@
             "time": "2020-04-29T16:11:43+00:00"
         },
         {
+            "name": "samdark/sitemap",
+            "version": "2.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/samdark/sitemap.git",
+                "reference": "dcfef471e79abca9d3c4d83dd6a7861cec1a596a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/samdark/sitemap/zipball/dcfef471e79abca9d3c4d83dd6a7861cec1a596a",
+                "reference": "dcfef471e79abca9d3c4d83dd6a7861cec1a596a",
+                "shasum": ""
+            },
+            "require": {
+                "ext-xmlwriter": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "samdark\\sitemap\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Alexander Makarov",
+                    "email": "sam@rmcreative.ru",
+                    "homepage": "http://rmcreative.ru/"
+                }
+            ],
+            "description": "Sitemap and sitemap index builder",
+            "homepage": "https://github.com/samdark/sitemap",
+            "keywords": [
+                "Sitemap"
+            ],
+            "time": "2019-03-27T09:31:20+00:00"
+        },
+        {
             "name": "seld/jsonlint",
             "version": "1.8.0",
             "source": {
@@ -7517,6 +7619,57 @@
             "time": "2020-04-24T10:16:04+00:00"
         },
         {
+            "name": "terabin/flarum-ext-sitemap",
+            "version": "v1.0.2-beta.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/terabin/flarum-ext-sitemap.git",
+                "reference": "2d4df9ee69aebe7b0dab83b4e7dfd9ee369691a7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/terabin/flarum-ext-sitemap/zipball/2d4df9ee69aebe7b0dab83b4e7dfd9ee369691a7",
+                "reference": "2d4df9ee69aebe7b0dab83b4e7dfd9ee369691a7",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.5",
+                "samdark/sitemap": "^2.0.4"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Sitemap",
+                    "icon": {
+                        "name": "sitemap",
+                        "backgroundColor": "#000",
+                        "color": "#fff"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Terabin\\Sitemap\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Allyson S Bacon",
+                    "email": "allyson_198@hotmail.com"
+                }
+            ],
+            "description": "Generate a Sitemap for Flarum automatically",
+            "keywords": [
+                "Sitemap",
+                "generator"
+            ],
+            "time": "2016-11-17T19:09:48+00:00"
+        },
+        {
             "name": "tijsverkoyen/css-to-inline-styles",
             "version": "2.2.2",
             "source": {
@@ -7844,7 +7997,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "beta",
-    "stability-flags": [],
+    "stability-flags": {
+        "terabin/flarum-ext-sitemap": 10
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],

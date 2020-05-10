@@ -63,6 +63,8 @@
         "flarum/suspend": "^0.1.0",
         "flarum/tags": "^0.1.0",
         "fof/links": "^0.3.0",
+        "fof/secure-https": "^0.1.0",
+        "terabin/flarum-ext-sitemap": "^1.0@beta",
         "v17development/flarum-seo": "^1.2",
         "veroz1/users-list": "^0.1.3",
         "wiwatsrt/flarum-ext-best-answer": "^0.2.4"

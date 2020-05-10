@@ -52,6 +52,7 @@ class ComposerStaticInit42a90d141ede0caa67debf7082c61579
     public static $prefixLengthsPsr4 = array (
         's' => 
         array (
+            'samdark\\sitemap\\' => 16,
             's9e\\TextFormatter\\' => 18,
             's9e\\RegexpBuilder\\' => 18,
         ),
@@ -75,6 +76,7 @@ class ComposerStaticInit42a90d141ede0caa67debf7082c61579
         array (
             'Tobscure\\JsonApi\\' => 17,
             'TijsVerkoyen\\CssToInlineStyles\\' => 31,
+            'Terabin\\Sitemap\\' => 16,
         ),
         'S' => 
         array (
@@ -167,6 +169,7 @@ class ComposerStaticInit42a90d141ede0caa67debf7082c61579
         'F' => 
         array (
             'Franzl\\Middleware\\Whoops\\' => 25,
+            'FoF\\SecureHttps\\' => 16,
             'FoF\\Links\\' => 10,
             'FoF\\Console\\' => 12,
             'Flarum\\Tags\\' => 12,
@@ -218,6 +221,10 @@ class ComposerStaticInit42a90d141ede0caa67debf7082c61579
     );
 
     public static $prefixDirsPsr4 = array (
+        'samdark\\sitemap\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/samdark/sitemap',
+        ),
         's9e\\TextFormatter\\' => 
         array (
             0 => __DIR__ . '/..' . '/s9e/text-formatter/src',
@@ -261,6 +268,10 @@ class ComposerStaticInit42a90d141ede0caa67debf7082c61579
         'TijsVerkoyen\\CssToInlineStyles\\' => 
         array (
             0 => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src',
+        ),
+        'Terabin\\Sitemap\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/terabin/flarum-ext-sitemap/src',
         ),
         'Symfony\\Polyfill\\Php73\\' => 
         array (
@@ -527,6 +538,10 @@ class ComposerStaticInit42a90d141ede0caa67debf7082c61579
         'Franzl\\Middleware\\Whoops\\' => 
         array (
             0 => __DIR__ . '/..' . '/franzl/whoops-middleware/src',
+        ),
+        'FoF\\SecureHttps\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fof/secure-https/src',
         ),
         'FoF\\Links\\' => 
         array (
