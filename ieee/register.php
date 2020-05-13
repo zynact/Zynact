@@ -38,20 +38,20 @@ else
     VALUES ('$area', '$title', '$description', '$name', '$email', '$phone', '$location', '$college', '$ieee_member')";
     if ($conn->query($sql) === TRUE)
     {
-        echo"<br><br><br><center>
-            <div class='text-white'>Submitted Successfully
-            <br>
-            <br>You can also submit multiple problems.<br>Click the button below to submit another problem.
+        echo"<br><br><br><br><br><br><center>
+            <div class='text-white'>
+            <h4>Submitted Successfully</h4>
+            You can also submit multiple problems.<br>Click the button below to submit another problem.
             <br>
             <a class='btn btn-info' href='pitchathon.php'>Submit Another Problem</a></div>
             <br>
-            <small>Participation Certificate<small>
+            <p>Participation Certificate</p>
             <form action='generate.php' method='POST'>
             <input type='submit' class='btn btn-simple btn-success' value='Download Certificate'>
             </form>
             <br>
-            <small>Click the below button to get free web hosting account<small><br>
-            <a class='btn btn-simple btn-success' href='hosting.zynact.com/register.php?plan=free' target=_blank>Get Free Web Hosting</a>
+            <p>Click the below button to get free web hosting account</p><br>
+            <a class='btn btn-simple btn-success' href='https://hosting.zynact.com/register.php?plan=free' target=_blank>Get Free Web Hosting</a>
             </center>";
     }
     else
