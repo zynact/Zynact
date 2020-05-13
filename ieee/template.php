@@ -18,10 +18,10 @@ $pdf->addPage('L', [792, 612]);
 $pdf->useTemplate($tplIdx);
 
 // Set font
-$pdf->AddFont('Roboto-Regular');
-$pdf->SetFont('Roboto-Regular', '', 30);
+$pdf->AddFont('Roboto-Bold');
+$pdf->SetFont('Roboto-Bold', '', 30);
 // Set color
-$pdf->SetTextColor(97, 101, 107);
+$pdf->SetTextColor(20, 20, 20);
 // Move to 300 points from the top
 $pdf->ln(300);
 // Centered text
