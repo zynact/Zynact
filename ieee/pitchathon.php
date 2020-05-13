@@ -149,7 +149,7 @@ if(isset($_SESSION['name']))
                 <h4 class="card-title"></h4>
                   <div class="card-body">
                     <form class="form" action="register.php" method="post">
-                        <center><h3>Online Pitchathon</h3></center>
+                        <center><h3>Online Pitchthon</h3></center>
                     
 
                     <div class="input-group">
