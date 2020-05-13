@@ -23,7 +23,7 @@ $pdf->SetFont('Roboto-Regular', '', 48);
 // Set color
 $pdf->SetTextColor(97, 101, 107);
 // Move to 500 points from the top
-$pdf->ln(500);
+$pdf->ln(200);
 // Centered text
 $pdf->Cell(0, 0, $name, 0, 1, 'C');
 
