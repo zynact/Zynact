@@ -27,4 +27,4 @@ $pdf->ln(300);
 // Centered text
 $pdf->Cell(0, 0, $name, 0, 1, 'C');
 
-$pdf->Output('D', 'certificate.pdf');
+$pdf->Output('D', 'certificate_pitchthon.pdf');
