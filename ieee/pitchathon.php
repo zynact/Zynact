@@ -179,12 +179,7 @@ if(isset($_SESSION['name']))
                         <input type="text" class="form-control" name="title" placeholder="&nbsp; Title" required autocomplete="off">
                         </div>
                         <div class="input-group">
-                          <div class="input-group-prepend">
-                            <div class="input-group-text">
-                              <i class="tim-icons icon-email-85"></i>
-                            </div>
-                          </div>
-                          <textarea class="form-control" name="description" placeholder="&nbsp; Short Description" required autocomplete="off"></textarea>
+                          <textarea class="form-control" name="description" placeholder="&nbsp; Short Description" style="height=150px; max-height: 150px;" required autocomplete="off"></textarea>
                         </div>
                         <br>
                     <center>
