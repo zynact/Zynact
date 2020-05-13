@@ -179,7 +179,7 @@ if(isset($_SESSION['name']))
                         <input type="text" class="form-control" name="title" placeholder="&nbsp; Title" required autocomplete="off">
                         </div>
                         <div class="input-group">
-                          <textarea class="form-control" name="description" placeholder="&nbsp; Short Description" style="height:150px; max-height: 150px;" required autocomplete="off"></textarea>
+                          <textarea class="form-control" name="description" placeholder="&nbsp; Short Description" style="height:100px; max-height: 100px;" required autocomplete="off"></textarea>
                         </div>
                         <br>
                     <center>
