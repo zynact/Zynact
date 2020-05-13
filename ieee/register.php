@@ -44,7 +44,7 @@ else
             You can also submit multiple problems.<br>Click the button below to submit another problem.
             <br>
             <a class='btn btn-info' href='pitchathon.php'>Submit Another Problem</a></div>
-            <br>
+            <br><br>
             <p>Participation Certificate</p>
             <form action='generate.php' method='POST'>
             <input type='submit' class='btn btn-simple btn-success' value='Download Certificate'>
