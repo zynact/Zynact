@@ -173,7 +173,7 @@ if(isset($_SESSION['name']))
                         <div class="input-group">
                             <div class="input-group-prepend">
                                 <div class="input-group-text">
-                                    <i class="tim-icons icon-single-02"></i>
+                                    <i class="tim-icons icon-caps-small"></i>
                                 </div>
                             </div>
                         <input type="text" class="form-control" name="title" placeholder="&nbsp; Title" required autocomplete="off">
