@@ -19,11 +19,11 @@ $pdf->useTemplate($tplIdx);
 
 // Set font
 $pdf->AddFont('Roboto-Regular');
-$pdf->SetFont('Roboto-Regular', '', 48);
+$pdf->SetFont('Roboto-Regular', '', 30);
 // Set color
 $pdf->SetTextColor(97, 101, 107);
-// Move to 500 points from the top
-$pdf->ln(350);
+// Move to 300 points from the top
+$pdf->ln(300);
 // Centered text
 $pdf->Cell(0, 0, $name, 0, 1, 'C');
 
