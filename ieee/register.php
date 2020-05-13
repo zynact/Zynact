@@ -11,7 +11,7 @@ if(isset($_SESSION['name']))
  }
  else
  {
-    header("Location: index.html");
+    header("Location: index.php");
     exit;
  }
  if(!empty($_POST['area']) && !empty($_POST['title']))
@@ -20,7 +20,7 @@ if(isset($_SESSION['name']))
 }
 else
 {
-    header("Location: index.html");
+    header("Location: index.php");
     exit;
 }
 
@@ -63,3 +63,6 @@ else
         <br> Error-Code : ieee_reg01</center>";
     }
 ?>
+
+<br><br><br><br>
+<?php include '../ad.html'; ?>
