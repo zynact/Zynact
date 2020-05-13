@@ -66,3 +66,5 @@ else
 
 <br><br><br><br>
 <?php include '../ad.html'; ?>
+<br><br>
+<?php include '../ad.html'; ?>
