@@ -40,7 +40,7 @@ else
     {
         echo"<br><br><br><br><br><br><center>
             <div class='text-white'>
-            <h4>Submitted Successfully</h4>
+            <h3>Submitted Successfully</h3>
             You can also submit multiple problems.<br>Click the button below to submit another problem.
             <br>
             <a class='btn btn-info' href='pitchathon.php'>Submit Another Problem</a></div>
