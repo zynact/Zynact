@@ -50,7 +50,7 @@ else
             <input type='submit' class='btn btn-simple btn-success' value='Download Certificate'>
             </form>
             <br>
-            <p>Click the below button to get free web hosting account</p><br>
+            <p>Click the below button to get free web hosting account</p>
             <a class='btn btn-simple btn-success' href='https://hosting.zynact.com/register.php?plan=free' target=_blank>Get Free Web Hosting</a>
             </center>";
     }
