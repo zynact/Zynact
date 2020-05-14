@@ -38,7 +38,7 @@ else
     VALUES ('$area', '$title', '$description', '$name', '$email', '$phone', '$location', '$college', '$ieee_member')";
     if ($conn->query($sql) === TRUE)
     {
-        echo"<br><br><br><br><br><br><center>
+        echo"<br><br><br><br><center>
             <div class='text-white'>
             <h2>Submitted Successfully</h2>
             You can also submit multiple problems.<br>Click the button below to submit another problem.
@@ -52,6 +52,9 @@ else
             <br>
             <p>Click the button below to get free web hosting account</p>
             <a class='btn btn-simple btn-success' href='https://hosting.zynact.com/register.php?plan=free' target=_blank>Get Free Web Hosting</a>
+            <br><br>
+            If you are having any issues while opening the certificate file
+            <br>Please try to open it open from the File Manager or use any PDF Viewer application.
             </center>";
     }
     else
