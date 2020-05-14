@@ -24,15 +24,15 @@ else
     exit;
 }
 
-    $email=$_SESSION['email'];
-    $name=$_SESSION['name'];
-    $phone=$_SESSION['phone'];
-    $location=$_SESSION['location'];
-    $college=$_SESSION['college'];
-    $ieee_member=$_SESSION['ieee_member'];
-    $area=$_POST['area'];
-    $title=$_POST['title'];
-    $description=$_POST['description'];
+    $email=htmlspecialchars($_SESSION['email']);
+    $name=htmlspecialchars($_SESSION['name']);
+    $phone=htmlspecialchars($_SESSION['phone']);
+    $location=htmlspecialchars($_SESSION['location']);
+    $college=htmlspecialchars($_SESSION['college']);
+    $ieee_member=htmlspecialchars($_SESSION['ieee_member']);
+    $area=htmlspecialchars($_POST['area']);
+    $title=htmlspecialchars($_POST['title']);
+    $description=htmlspecialchars($_POST['description']);
 
     $sql="INSERT INTO ieee_pitchathon (area, title, description, name, email, phone, location, college, ieee_member)
     VALUES ('$area', '$title', '$description', '$name', '$email', '$phone', '$location', '$college', '$ieee_member')";
