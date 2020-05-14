@@ -54,7 +54,7 @@ else
             <a class='btn btn-simple btn-success' href='https://hosting.zynact.com/register.php?plan=free' target=_blank>Get Free Web Hosting</a>
             <br><br>
             If you are having any issues while opening the certificate file
-            <br>Please try to open it open from the File Manager or use any PDF Viewer application.
+            <br>Please try to open it from the File Manager or use any PDF Viewer application.
             </center>";
     }
     else
