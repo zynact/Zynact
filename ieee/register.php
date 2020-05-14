@@ -24,15 +24,15 @@ else
     exit;
 }
 
-    $email=htmlspecialchars($_SESSION['email']);
-    $name=htmlspecialchars($_SESSION['name']);
-    $phone=htmlspecialchars($_SESSION['phone']);
-    $location=htmlspecialchars($_SESSION['location']);
-    $college=htmlspecialchars($_SESSION['college']);
-    $ieee_member=htmlspecialchars($_SESSION['ieee_member']);
-    $area=htmlspecialchars($_POST['area']);
-    $title=htmlspecialchars($_POST['title']);
-    $description=htmlspecialchars($_POST['description']);
+    $email=htmlspecialchars($_SESSION['email'], ENT_QUOTES);
+    $name=htmlspecialchars($_SESSION['name'], ENT_QUOTES);
+    $phone=htmlspecialchars($_SESSION['phone'], ENT_QUOTES);
+    $location=htmlspecialchars($_SESSION['location'], ENT_QUOTES);
+    $college=htmlspecialchars($_SESSION['college'], ENT_QUOTES);
+    $ieee_member=htmlspecialchars($_SESSION['ieee_member'], ENT_QUOTES);
+    $area=htmlspecialchars($_POST['area'], ENT_QUOTES);
+    $title=htmlspecialchars($_POST['title'], ENT_QUOTES);
+    $description=htmlspecialchars($_POST['description'], ENT_QUOTES);
 
     $sql="INSERT INTO ieee_pitchathon (area, title, description, name, email, phone, location, college, ieee_member)
     VALUES ('$area', '$title', '$description', '$name', '$email', '$phone', '$location', '$college', '$ieee_member')";
@@ -59,7 +59,7 @@ else
     }
     else
     {
-        echo $conn->error;
+        //echo $conn->error;
         echo"<br><br><br><br><br><br><br><center>
         <div class='text-white'>Something Went Wrong
         <br>Please try again, If this happens again please contact us.
