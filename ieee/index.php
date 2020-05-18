@@ -123,7 +123,7 @@
                 <h4 class="card-title"></h4>
                   <div class="card-body">
                     <form class="form" action="#" method="post">
-                        <center><h3>Online Pitchthon competion is over<br><br>Results will be announced soon</h3></center>
+                        <center><h3>Online Pitchthon competition is over<br><br>Results will be announced soon</h3></center>
                         <br><br>
                       <center>
                         <div>
