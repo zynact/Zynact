@@ -128,7 +128,7 @@
                       <center>
                         <div>
                             <label class="">
-                              Please read
+                              Please read the
                               <a href="#" data-toggle="modal" data-target="#myModal">guidelines</a>.
                             </label>
                           </div>
