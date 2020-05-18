@@ -122,84 +122,16 @@
                 <div class="card card-register">
                 <h4 class="card-title"></h4>
                   <div class="card-body">
-                    <form class="form" action="pitchathon.php" method="post">
-                        <center><h3>Online Pitchthon Registration</h3></center>
-                      <div class="input-group">
-                        <div class="input-group-prepend">
-                          <div class="input-group-text">
-                            <i class="tim-icons icon-single-02"></i>
-                          </div>
-                        </div>
-                        <input type="text" class="form-control" name="name" placeholder="&nbsp; Name" required autocomplete="off">
-                      </div>
-                      <div class="input-group">
-                          <div class="input-group-prepend">
-                            <div class="input-group-text">
-                              <i class="tim-icons icon-email-85"></i>
-                            </div>
-                          </div>
-                          <input type="email" class="form-control" name="email" placeholder="&nbsp; Email" required autocomplete="off">
-                        </div>
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                              <div class="input-group-text">
-                                <i class="tim-icons icon-mobile"></i>
-                              </div>
-                            </div>
-                            <input type="text" class="form-control" name="phone" placeholder="&nbsp; Your Phone Number" required autocomplete="off">
-                        </div>
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                              <div class="input-group-text">
-                                <i class="tim-icons icon-square-pin"></i>
-                              </div>
-                            </div>
-                            <input type="text" class="form-control" name="location" placeholder="&nbsp; Your Location (eg: Kerala, India)" required autocomplete="off">
-                        </div>
-                        <div class="input-group">
-                          <div class="input-group-prepend">
-                            <div class="input-group-text">
-                              <i class="tim-icons icon-bank"></i>
-                            </div>
-                          </div>
-                          <input type="text" class="form-control" name="college" placeholder="&nbsp; College / School / Institution Name" autocomplete="off">
-                        </div>
-                        <!--
-                        <div class="input-group">
-                          <div class="input-group-prepend">
-                            <div class="input-group-text">
-                              <i class="tim-icons icon-puzzle-10"></i>
-                            </div>
-                          </div>
-                          <input type="text" class="form-control" name="department" placeholder="&nbsp; Your Department" autocomplete="off">
-                        </div>-->
-                        <div class="col-sm-6 col-lg-3" style="max-width: 100%;">
-                          <p>Are you an IEEE member</p>
-                          <div class="form-check form-check-radio">
-                            <label class="form-check-label">
-                              <input class="form-check-input" type="radio" name="ieee_member" id="exampleRadios1" value="yes">
-                              <span class="form-check-sign"></span>
-                              Yes !
-                            </label>
-                          </div>
-                          <div class="form-check form-check-radio">
-                            <label class="form-check-label">
-                              <input class="form-check-input" type="radio" name="ieee_member" id="exampleRadios1" value="no" checked="">
-                              <span class="form-check-sign"></span>
-                              NO !
-                            </label>
-                          </div>
-                        </div>
-                        <br>
+                    <form class="form" action="#" method="post">
+                        <center><h3>Online Pitchthon competion is over<br><br>Results will be announced soon</h3></center>
+                        <br><br>
                       <center>
                         <div>
                             <label class="">
                               Please read
-                              <a href="#" data-toggle="modal" data-target="#myModal">guidelines</a> before you proceed.
+                              <a href="#" data-toggle="modal" data-target="#myModal">guidelines</a>.
                             </label>
                           </div>
-                          <br>
-                          <input type="submit" class="btn btn-info btn-round btn-lg" value="Register">
                     </center>
                     </form>
                   </div>
